@@ -2,6 +2,38 @@
 
 _Get started using GitHub in less than an hour._
 
+## Plant Watering Reminder App
+
+A simple command-line app to remind you when to water your plants. 🌱
+
+### Usage
+
+```bash
+# Add a plant (name + watering interval in days)
+python plant_reminder.py add "Monstera" 7
+python plant_reminder.py add "Cactus" 30
+
+# List all plants and their next watering date
+python plant_reminder.py list
+
+# Check which plants need water today
+python plant_reminder.py remind
+
+# Mark a plant as watered
+python plant_reminder.py water "Monstera"
+
+# Remove a plant
+python plant_reminder.py remove "Cactus"
+```
+
+### Running tests
+
+```bash
+python -m unittest test_plant_reminder -v
+```
+
+---
+
 ## Welcome
 
 People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
